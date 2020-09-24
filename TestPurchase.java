@@ -29,6 +29,9 @@ public class TestPurchase
         System.out.println("Testing getPrice: " + p1.getPrice() );
         System.out.println("Testing getTotalCost: " + p1.getTotalCost() );
         
+        System.out.println("Testing the toString() method: ");
+        System.out.println(p1);
+        
         kbd.close();
     }
 }
